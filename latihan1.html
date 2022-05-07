@@ -1,15 +1,166 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
+
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-  <title>Pemrograman Web</title>
-  <link rel="stylesheet" href="web.css" type="text/css" media="all" />
+	<title>Website Sederhana</title>
+<style>
+	body {
+
+	background-color: lightskyblue;
+	font-family: arial;
+}
+	.top-bar {
+	position: fixed;
+	background-color: purple;
+	height: 30px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+}
+	#search {
+	border-radius: 10px;
+	margin: 2px;
+	background-color: vanilla;
+}
+	.container {
+	margin: auto;
+	background-color: #eaeaea;
+	padding: 20px;
+	width: 600px;
+}
+	.Header {
+	background-color: lightgreen;
+	padding: 10px;
+	margin: -20px;
+	margin-bottom: -25px;
+}
+	h1 {
+	color: purple;
+	font-style: italic;
+	font-size: 28px;
+}
+	.Header a {
+	text-decoration: none;
+}	
+	ul li { display: inline-block;}
+	.Header a:hover {
+	background-color: coral;
+	font-size: 20px;
+	font-style: italic;
+} 
+	.hero {
+	background-image: url(../Phoenix.JPG);
+	height: 250px;
+	background-position: 0 250px;
+	margin-top: -15px;
+	margin-left: -20px;
+	margin-right: -20px;
+	background-size: cover;
+}
+	h3 {
+	text-align: center;
+	font-family: serif;
+	font-size: 24px;
+	color: black;
+	line-height: 250px;
+	
+}
+	.penulis {
+	font-size: 14px;
+	margin-top: -25px;
+	color: gray;
+	font-family: sans-serif;
+	font-style: italic;
+}
+	.penulis a { 
+	text-decoration: none;
+	color: inherit;
+
+}
+	h2 {
+	color: purple;
+	font-family: serif;
+	font-size: 26px;
+	font-style: italic;
+}
+	.sidebar {
+	height : 50px;
+	width: 50px;
+	background-color: violet;
+	float: right;
+	margin: 50px;
+}
+	.clear{
+	clear: right;
+}
+	.content {
+	text-align: justify;
+	width: 450px;
+}
+	.footer {
+	background-color: purple;
+	height: 20px;
+}
+	.copyright {
+	text-align: center;
+	color: white;
+	font-family: serif;
+	font-size: 16px;
+}
+</style>
 </head>
+
 <body>
-  <h1>Apa itu HTML</h1>
-  <p>HTML atau Hypertext Markup Language adalah bahasa Markup untuk memberitahu browser bagaimana sebuah halaman web ditampilkan.</p>
-  <h2>Sejarah HTML</h2>
-  <p>HTML diciptakan oleh Bapak Tim Berners Lee pada tahun 1992 setelah dibuatnya HTTP</p>
-  
+<div class="top-bar">
+	<input type="text" placeholder="Search" id="search">
+
+</div>
+<div class="container">
+<div class="Header">
+<h1>WEBSITE SEDERHANA</h1>
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Index</a></li>
+	<li><a href="#">Contact</a></li>
+</ul>
+</div>
+
+<div class="hero">
+	<h3>SELAMAT DATANG</h3>
+</div>
+
+<div class="sidebar">
+<div class="clear"></div>
+</div>
+<div class="content">
+	
+	<h2>Konten</h2>	
+	<p class="penulis">Ditulis oleh <a href="#">AnggiAnggi</a> pada tanggal 23 Desember 2021</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elid, 
+sed do eiusmod tempor incididunt ut labore et dolore aliqua. 
+Ut enim ad minim venim, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse 
+cilum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elid, 
+sed do eiusmod tempor incididunt ut labore et dolore aliqua. 
+Ut enim ad minim venim, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse 
+cilum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elid, 
+sed do eiusmod tempor incididunt ut labore et dolore aliqua. 
+Ut enim ad minim venim, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse 
+cilum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
+<div class="footer">
+	<p class="copyright">Copyright. AnggiAnggi</p>
+</div>
+</div>
 </body>
 </html>
